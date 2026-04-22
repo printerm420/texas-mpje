@@ -1,0 +1,12 @@
+[
+  {
+    "id": "q001",
+    "category": "Federal Pharmacy Law",
+    "question": "Sample Texas MPJE question placeholder",
+    "options": ["Option A", "Option B", "Option C", "Option D"],
+    "correctAnswer": 0,
+    "explanation": "This is a placeholder. Replace with your 500+ Texas MPJE questions.",
+    "difficulty": "medium",
+    "isPremium": false
+  }
+]
