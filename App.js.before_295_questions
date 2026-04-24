@@ -102,12 +102,8 @@ const TOPICS = [
     icon: "shield-checkmark",
     isFree: true,
     chapters: [
-      { id: 101, title: "Board Rules & Regulations", questionIds: [86,87,88,91,92,94,95,172,180,181,193,466,469,470,471,511,512,515,516,517,518,588,589,590,591,592,593,594,595,596,597,635,637,638,639,640,643] },
-      { id: 102, title: "Licensure & Examination", questionIds: [89,93,96,97,173,174,519,520,521,523,598,599,600,601,603,608,625,626] },
-      { id: 103, title: "Renewal, CE & License Status", questionIds: [99,100,101,102,103,104,105,176,177,178,179,182,183,461,475,476,514,522,524,525,526,527,538,581,582,602,604,605,606,607,609,611,632] },
-      { id: 104, title: "PIC, Preceptors & Supervision", questionIds: [90,175,184,195,196,457,458,459,460,513,627,628,629,630,631,646,647,649,650,651,652,653,654,684] },
-      { id: 105, title: "Hospital & Institutional Pharmacy", questionIds: [492,493,494,495,496,497,555,556,557,558,559,560,561,562,570,667,668,670] },
-      { id: 106, title: "Community Pharmacy, Classes & Records", questionIds: [443,500,501,502,503,505,533,543,549,566,567,568,569,571,572,573,574,583,617,633,634,662,683,688,708] }
+      { id: 101, title: "Board Rules & Regulations", questionIds: [86,87,88,91,92,94,95,172,180,181,193] },
+      { id: 102, title: "Pharmacy Licensure", questionIds: [89,90,93,96,97,99,100,101,102,103,104,105,173,174,175,176,177,178,179,182,183,184,195,196] }
     ]
   },
   {
@@ -116,11 +112,11 @@ const TOPICS = [
     icon: "medical",
     isFree: false,
     chapters: [
-      { id: 201, title: "Federal Drug Laws & History", questionIds: [1,2,3,212,213,214,216,217,218,219,220,221,224,225,226,227,228,229,230,249,270,274,275,278,279,291,304,331,345,346,365,372,380,416,417,484,713,714,722] },
+      { id: 201, title: "Federal Drug Laws & History", questionIds: [1,2,3,212,213,214,216,217,218,219,220,221,224,225,226,227,228,229,230,249,270,274,275,278,279,291,304,331,345,346,365,372,380,416,417] },
       { id: 202, title: "Adulteration & Misbranding", questionIds: [10,11,12,13,32,33,34,35,36,38,40,41,44,111,112,113,114,115,116,231,233,236,237,238,239,258,262,295,344,350,370,419] },
       { id: 203, title: "Drug Approval & Clinical Trials", questionIds: [15,16,240,241,242,243,244,245,246,263,264,265,266,267,268,269,337,338,340,341,363] },
-      { id: 204, title: "Labeling & OTC Products", questionIds: [17,20,21,118,119,256,257,287,288,289,334,347,353,373,377,384,397,425,478,480,481,482,483,504,506,508,575,577,661,718,719,720] },
-      { id: 205, title: "HIPAA & Patient Privacy", questionIds: [24,300,301,302,305,306,307,308,309,310,311,312,387,401,413,428,510,532,535,618] },
+      { id: 204, title: "Labeling & OTC Products", questionIds: [17,20,21,118,119,256,257,287,288,289,334,347,353,373,377,384,397,425] },
+      { id: 205, title: "HIPAA & Patient Privacy", questionIds: [24,300,301,302,305,306,307,308,309,310,311,312,387,401,413,428] },
       { id: 206, title: "Controlled Substances Act", questionIds: [210,211,333,379] }
     ]
   },
@@ -130,11 +126,11 @@ const TOPICS = [
     icon: "flask",
     isFree: false,
     chapters: [
-      { id: 301, title: "Drug Schedules", questionIds: [46,47,48,49,50,51,52,54,55,56,57,135,136,137,138,139,205,206,348,386,396,415,433,434,435,436,437,438,439,440,441,442,451,452,453,696,697,707,721] },
-      { id: 302, title: "Prescription Requirements", questionIds: [71,72,73,74,76,78,79,80,81,82,84,85,132,156,157,158,159,161,162,163,164,165,207,371,376,388,412,444,445,454,463,464,498,499,530,531,541,546,563,564,565,615,616,671,674,675,676,678,679,680,681,682,700,704,705,706] },
-      { id: 303, title: "DEA Registration & Forms", questionIds: [58,59,60,61,62,63,64,65,66,67,68,127,128,129,130,131,140,141,142,143,332,335,358,366,381,383,390,392,399,400,410,418,423,430,431,432,448,449,477,509,578,579,698,723,724] },
-      { id: 304, title: "Inventory & Storage", questionIds: [144,150,151,152,153,154,155,190,191,192,208,209,378,385,446,447,450,644,645,691,701,702,703] },
-      { id: 305, title: "Theft, Loss & Destruction", questionIds: [69,70,126,145,146,147,148,149,336,342,354,394,467,468,642,677,699] }
+      { id: 301, title: "Drug Schedules", questionIds: [46,47,48,49,50,51,52,54,55,56,57,135,136,137,138,139,205,206,348,386,396,415] },
+      { id: 302, title: "Prescription Requirements", questionIds: [71,72,73,74,76,78,79,80,81,82,84,85,132,156,157,158,159,161,162,163,164,165,207,371,376,388,412] },
+      { id: 303, title: "DEA Registration & Forms", questionIds: [58,59,60,61,62,63,64,65,66,67,68,127,128,129,130,131,140,141,142,143,332,335,358,366,381,383,390,392,399,400,410,418,423] },
+      { id: 304, title: "Inventory & Storage", questionIds: [144,150,151,152,153,154,155,190,191,192,208,209,378,385] },
+      { id: 305, title: "Theft, Loss & Destruction", questionIds: [69,70,126,145,146,147,148,149,336,342,354,394] }
     ]
   },
   {
@@ -143,8 +139,8 @@ const TOPICS = [
     icon: "document-text",
     isFree: false,
     chapters: [
-      { id: 401, title: "Valid Prescriptions", questionIds: [98,166,167,168,169,170,171,200,271,272,280,281,343,352,382,402,427,455,462,534,540,580,585,586,614,641,657,659,660,685,686,687] },
-      { id: 402, title: "Refills & Transfers", questionIds: [77,106,107,108,160,199,349,584,587,663,664,665,669] },
+      { id: 401, title: "Valid Prescriptions", questionIds: [98,166,167,168,169,170,171,200,271,272,280,281,343,352,382,402,427] },
+      { id: 402, title: "Refills & Transfers", questionIds: [77,106,107,108,160,199,349] },
       { id: 403, title: "Electronic Prescribing", questionIds: [75,359,374] }
     ]
   },
@@ -154,9 +150,9 @@ const TOPICS = [
     icon: "people",
     isFree: false,
     chapters: [
-      { id: 501, title: "Patient Counseling Requirements", questionIds: [185,186,187,188,189,299,355,424,465,472,473,474,636,655,658,672,673,690] },
-      { id: 502, title: "Medication Errors", questionIds: [123,124,125,197,198,248,321,324,356,369,375,393,406,421,429,693] },
-      { id: 503, title: "Drug Utilization Review", questionIds: [298,360,403,656] }
+      { id: 501, title: "Patient Counseling Requirements", questionIds: [185,186,187,188,189,299,355,424] },
+      { id: 502, title: "Medication Errors", questionIds: [123,124,125,197,198,248,321,324,356,369,375,393,406,421,429] },
+      { id: 503, title: "Drug Utilization Review", questionIds: [298,360,403] }
     ]
   },
   {
@@ -166,8 +162,8 @@ const TOPICS = [
     isFree: false,
     chapters: [
       { id: 601, title: "USP Standards", questionIds: [391] },
-      { id: 602, title: "Sterile Compounding", questionIds: [6,7,25,27,28,42,204,389,485,486,487,488,489,490,491,507,552,553,554,576,648,666,709,710,711,712] },
-      { id: 603, title: "Non-Sterile Compounding", questionIds: [26,53,133,134,201,202,203,247,276,277,284,285,286,292,351,357,408,550,551,715] }
+      { id: 602, title: "Sterile Compounding", questionIds: [6,7,25,27,28,42,204,389] },
+      { id: 603, title: "Non-Sterile Compounding", questionIds: [26,53,133,134,201,202,203,247,276,277,284,285,286,292,351,357,408] }
     ]
   },
   {
@@ -176,8 +172,8 @@ const TOPICS = [
     icon: "cube",
     isFree: false,
     chapters: [
-      { id: 701, title: "Wholesaling & Supply Chain", questionIds: [4,5,8,9,29,30,31,37,39,45,109,110,117,222,223,283,290,339,364,367,395,405,409,411,456,479,692,716] },
-      { id: 702, title: "Drug Recalls", questionIds: [18,43,232,259,260,261,362,368,689,717] }
+      { id: 701, title: "Wholesaling & Supply Chain", questionIds: [4,5,8,9,29,30,31,37,39,45,109,110,117,222,223,283,290,339,364,367,395,405,409,411] },
+      { id: 702, title: "Drug Recalls", questionIds: [18,43,232,259,260,261,362,368] }
     ]
   },
   {
@@ -186,8 +182,8 @@ const TOPICS = [
     icon: "ribbon",
     isFree: false,
     chapters: [
-      { id: 801, title: "Ethics & Professional Conduct", questionIds: [215,234,235,250,251,252,253,254,255,273,325,326,327,328,329,528,536,537,542,544,619] },
-      { id: 802, title: "Disciplinary Actions", questionIds: [194,529,539,545,547,548,610,612,613,620,621,622,623,624] }
+      { id: 801, title: "Ethics & Professional Conduct", questionIds: [215,234,235,250,251,252,253,254,255,273,325,326,327,328,329] },
+      { id: 802, title: "Disciplinary Actions", questionIds: [194] }
     ]
   },
   {
@@ -196,7 +192,7 @@ const TOPICS = [
     icon: "heart",
     isFree: false,
     chapters: [
-      { id: 901, title: "Pediatric & Geriatric", questionIds: [14,22,23,83,120,121,122,293,294,361,404,407,420,422,426,694,695] },
+      { id: 901, title: "Pediatric & Geriatric", questionIds: [14,22,23,83,120,121,122,293,294,361,404,407,420,422,426] },
       { id: 902, title: "Pregnancy & Lactation", questionIds: [19,282,398,414] }
     ]
   },
@@ -259,9 +255,8 @@ function GaugeArcs({ outerPct, middlePct, innerPct }) {
   );
 }
 
-// ========== TEXAS MPJE COMPLETE QUESTION BANK ==========
-// 724 total MPJE questions. Always use QUESTIONS.length when displaying
-// counts so the UI stays correct as more questions are appended later.
+// ========== TEXAS MPJE COMPLETE QUESTION BANK (All 429 Questions) ==========
+// Successfully converted and added all 429 questions from your MPJE study materials
 const QUESTIONS = [
   { id: 1, q: "Which 1938 legislation was passed in response to the Sulfanilamide tragedy and required drugs to be proven safe prior to marketing?", o: ["Pure Food and Drug Act", "Kefauver-Harris Amendment", "Food, Drug, and Cosmetic Act (FDCA)", "Durham-Humphrey Amendment"], a: 2 },
   { id: 2, q: "The Durham-Humphrey Amendment of 1951 is best known for which of the following?", o: ["Requiring drugs to be effective", "Creating the distinction between \"Legend\" (Rx) and OTC drugs", "Establishing Good Manufacturing Practices (GMP)", "Regulating drug samples"], a: 1 },
@@ -692,301 +687,6 @@ const QUESTIONS = [
   { id: 427, q: "Based on federal law, prescription records must be kept for at least:", o: ["1 year", "2 years", "5 years", "10 years"], a: 1 },
   { id: 428, q: "If a HIPAA breach affects 900 patients, who must be notified?", o: ["The patients only", "The patients and the US Secretary of HHS", "The patients, the US Secretary of HHS, and local media outlets", "Only the local police"], a: 2 },
   { id: 429, q: "How often must a pharmacist conduct a Drug Regimen Review for a patient in a long-term care facility?", o: ["Every 14 days", "At least once a month", "Quarterly", "Only when the patient's medication changes"], a: 1 },
-  { id: 430, q: "Who of the following is NOT required to register with the DEA?", o: ["A pharmaceutical manufacturer","A patient with a valid prescription","An independent community pharmacy","A research lab using CII substances"], a: 1 },
-  { id: 431, q: "Which of the following carrier-related individuals is exempt from DEA registration?", o: ["A UPS delivery driver","A warehouse worker for a drug wholesaler","A long-haul truck driver for a manufacturer","All of the above"], a: 3 },
-  { id: 432, q: "Officials of which government service are exempt from DEA registration?", o: ["U.S. Armed Services","Public Health Service","Bureau of Prisons","All of the above"], a: 3 },
-  { id: 433, q: "What is the specific concentration limit for Codeine to be a Schedule V (CV) substance?", o: ["1.8 g/100 mL","500 mg/100 mL","200 mg/100 mL","50 mg/100 mL"], a: 2 },
-  { id: 434, q: "If a Codeine preparation exceeds 2mg/mL (200mg/100mL), what schedule does it become?", o: ["Schedule II","Schedule III","Schedule IV","Legend Drug"], a: 1 },
-  { id: 435, q: "What is the concentration limit for a Schedule III (CIII) Codeine preparation per 100 mL?", o: ["200 mg","500 mg","1.8 g","2.5 g"], a: 2 },
-  { id: 436, q: "To be Schedule III (CIII), a Codeine preparation cannot exceed how many milligrams per dosage unit?", o: ["10 mg","25 mg","90 mg","100 mg"], a: 2 },
-  { id: 437, q: "If a Codeine preparation exceeds 1.8g/100mL or 90mg/dosage unit, it is classified as:", o: ["Schedule I","Schedule II","Schedule III","Schedule IV"], a: 1 },
-  { id: 438, q: "What is the FEDERAL concentration limit for Schedule V (CV) Opium?", o: ["100 mg/100 mL","50 mg/100 mL","500 mg/100 mL","25 mg/100 mL"], a: 0 },
-  { id: 439, q: "What is the TEXAS concentration limit for Schedule V (CV) Opium?", o: ["100 mg/100 mL","50 mg/100 mL","500 mg/100 mL","25 mg/100 mL"], a: 1 },
-  { id: 440, q: "What is the FEDERAL concentration limit for Schedule III (CIII) Opium per 100 mL?", o: ["100 mg","250 mg","500 mg","1.8 g"], a: 2 },
-  { id: 441, q: "To be Schedule III (CIII), a Federal Opium preparation cannot exceed how many milligrams per dosage unit?", o: ["10 mg","25 mg","50 mg","90 mg"], a: 1 },
-  { id: 442, q: "A \"straight narcotic\" (e.g., pure codeine syrup) is Schedule II regardless of strength. When do the concentration limits (CIII/CV) actually apply?", o: ["When the narcotic is added to water","When the narcotic is added to a non-narcotic ingredient","When it is exported","When it is in a capsule form"], a: 1 },
-  { id: 443, q: "Which pharmacy classes in Texas are required to store Schedule II (CII) substances in a locked cabinet? (Select all that apply: Class C, Class C-S, Class C-ASC, Class F)", o: ["Class C only","Class C and Class C-S","Class C-ASC and Class F","All of the above"], a: 3 },
-  { id: 444, q: "Which scheduled classes are required to bear the \"Caution\" label on the prescription?", o: ["Schedule II only","Schedule II and III only","Schedule II, III, and IV","Schedule II, III, IV, and V"], a: 2 },
-  { id: 445, q: "True or False: A blinded clinical study is an exemption to the \"Caution\" label requirement for Schedule II-IV drugs.", o: ["True","False"], a: 0 },
-  { id: 446, q: "In Texas, a perpetual inventory is required for ALL controlled substances in which location?", o: ["A Class A pharmacy","A remote location under remote pharmacy rules","A Class C pharmacy","A Physician's office"], a: 1 },
-  { id: 447, q: "A perpetual inventory for ALL controlled substances is mandatory for which class?", o: ["Class C-ASC","Class F (Free-standing ER)","Both A and B","Neither A nor B"], a: 2 },
-  { id: 448, q: "In which pharmacy class does a pharmacist NOT have to sign/initial when receiving a controlled substance?", o: ["Class A","Class C","Class C-ASC and Class F","Class B"], a: 2 },
-  { id: 449, q: "Which of the following records MUST be kept at the pharmacy and CANNOT be moved to a central location?", o: ["Financial invoices","Executed DEA 222 Copy 3","Shipping manifests","Employee payroll"], a: 1 },
-  { id: 450, q: "True or False: Prescriptions and Inventories must be kept at the pharmacy at all times and cannot be stored centrally.", o: ["True","False"], a: 0 },
-  { id: 451, q: "What is the daily retail sales limit for Pseudoephedrine?", o: ["1.8 g","3.6 g","7.5 g","9 g"], a: 1 },
-  { id: 452, q: "What is the 30-day retail sales limit for Pseudoephedrine?", o: ["3.6 g","7.5 g","9 g","15 g"], a: 2 },
-  { id: 453, q: "What is the 30-day limit for Pseudoephedrine purchased via mail service or mobile retail vendors?", o: ["3.6 g","7.5 g","9 g","12 g"], a: 1 },
-  { id: 454, q: "Automatic refills are permitted in Texas for which of the following?", o: ["Schedule II","Schedule III","Schedule IV and V","All controlled substances"], a: 2 },
-  { id: 455, q: "APRNs and PAs can prescribe CIII-CV, but the total quantity (including refills) cannot exceed a:", o: ["30-day supply","60-day supply","90-day supply","6-month supply"], a: 2 },
-  { id: 456, q: "Who regulates drug wholesalers in the state of Texas?", o: ["Texas State Board of Pharmacy (TSBP)","DEA","TX Department of State Health Services","FDA"], a: 2 },
-  { id: 457, q: "How many hours of initial training must a preceptor complete?", o: ["1 hour","3 hours","6 hours","12 hours"], a: 1 },
-  { id: 458, q: "How often must a preceptor renew their training?", o: ["Every year","Every 2 years","Every 5 years","Never"], a: 1 },
-  { id: 459, q: "What is the ratio for preceptors supervising pharmacist-interns if they ARE part of a Texas college of pharmacy program?", o: ["1:1","1:2","1:3","No ratio"], a: 3 },
-  { id: 460, q: "What is the ratio for preceptors supervising pharmacist-interns if they are NOT part of a Texas college program?", o: ["1:1","1:2","1:3","1:4"], a: 0 },
-  { id: 461, q: "How long must Continuing Education (CE) records be kept?", o: ["1 year","2 years","3 years","5 years"], a: 2 },
-  { id: 462, q: "If a practitioner wants a brand name drug for a Medicaid patient (verbal/electronic), how long do they have to mail/fax the hard copy?", o: ["72 hours","7 days","14 days","30 days"], a: 3 },
-  { id: 463, q: "True or False: Emergency refills are allowed for Schedule CIII-V substances per TSBP rules.", o: ["True","False"], a: 0 },
-  { id: 464, q: "True or False: Automatic refills can be done for Schedule III substances.", o: ["True","False"], a: 1 },
-  { id: 465, q: "If a pharmacist administers an Epi-pen in an emergency, they must contact the PCP within:", o: ["24 hours","48 hours","72 hours","7 days"], a: 2 },
-  { id: 466, q: "How far in advance must a pharmacy report a change of location to the TSBP?", o: ["10 days prior","14 days prior","30 days prior","60 days prior"], a: 2 },
-  { id: 467, q: "When should a pharmacy report \"significant loss or theft\" of controlled substances?", o: ["Within 24 hours","Within 7 days","Immediately upon discovery","At the end of the month"], a: 2 },
-  { id: 468, q: "When must a pharmacy report a forged prescription?", o: ["Immediately upon discovery","Within 24 hours","Within 3 days","Only if the drug was dispensed"], a: 0 },
-  { id: 469, q: "After a pharmacy permanently closes, how long do they have to report it to the TSBP?", o: ["Within 24 hours","Within 5 days","Within 10 days","Within 30 days"], a: 2 },
-  { id: 470, q: "When there is a change of ownership or name of a pharmacy, notice must be given within:", o: ["10 days","14 days","30 days","60 days"], a: 0 },
-  { id: 471, q: "A new license application for a change of pharmacy name must be filed how many days BEFORE the change?", o: ["10 days","14 days","21 days","30 days"], a: 0 },
-  { id: 472, q: "At what age can a pharmacist provide an Influenza vaccine WITHOUT a prescription?", o: ["Over 3 years old","Over 7 years old","Over 14 years old","Over 18 years old"], a: 1 },
-  { id: 473, q: "At what age can a pharmacist provide a vaccine (other than Influenza) WITHOUT a prescription?", o: ["Over 7 years old","Over 10 years old","Over 14 years old","Over 18 years old"], a: 2 },
-  { id: 474, q: "After administering a vaccine, the pharmacist must notify the protocol physician within ___ and the patient's PCP within ___.", o: ["12 hours; 7 days","24 hours; 14 days","48 hours; 21 days","72 hours; 30 days"], a: 1 },
-  { id: 475, q: "Pharmacist certification for vaccines requires how many hours of CDC training?", o: ["10 hours","12 hours","20 hours","40 hours"], a: 2 },
-  { id: 476, q: "Pharmacist certification for vaccines requires how many hours of CE every 2 years?", o: ["1 hour","2 hours","3 hours","5 hours"], a: 2 },
-  { id: 477, q: "How many days PRIOR to closing a pharmacy must the DEA be notified?", o: ["10 days","14 days","30 days","45 days"], a: 1 },
-  { id: 478, q: "OTC labeling must follow the \"APUWDOIQ\" format. What does the \"W\" stand for?", o: ["Weight","Water content","Warnings","Warranty"], a: 2 },
-  { id: 479, q: "Nurses of Home/Community Support Agencies may transport certain drugs. What is the maximum number of dosage units allowed for drugs like Heparin or Epinephrine?", o: ["1 unit","5 units","10 units","20 units"], a: 1 },
-  { id: 480, q: "Which of the following is EXEMPT from the Poison Prevention Packaging Act?", o: ["Oral Contraceptives in manufacturers' dispenser packs","Sublingual Nitroglycerin","Medroxyprogesterone acetate tablets","All of the above"], a: 3 },
-  { id: 481, q: "What is the maximum amount of Sodium Fluoride allowed per package to be exempt from the Poison Prevention Packaging Act?", o: ["50 mg","126 mg","264 mg","500 mg"], a: 2 },
-  { id: 482, q: "PPIs (Patient Package Inserts) are specifically required for which products?", o: ["All narcotics","Oral Contraceptives and Estrogen products","Antibiotics","Insulin"], a: 1 },
-  { id: 483, q: "True or False: The FDA has legal authority to order recalls for prescription drugs.", o: ["True","False"], a: 1 },
-  { id: 484, q: "Who administers the Poison Prevention Packaging Act?", o: ["FDA","DEA","Consumer Product Safety Commission","TSBP"], a: 2 },
-  { id: 485, q: "A pharmacist must complete how many hours of initial training in sterile compounding (through an ACPE course or College of Pharmacy)?", o: ["10 hours","20 hours","40 hours","50 hours"], a: 1 },
-  { id: 486, q: "For a Certified Pharmacy Technician, how many hours of initial ACPE-approved training are required for sterile compounding?", o: ["10 hours","20 hours","40 hours","60 hours"], a: 2 },
-  { id: 487, q: "How many hours of CE are required annually for a pharmacist or technician performing LOW or MEDIUM risk sterile preparations?", o: ["1 hour","2 hours","3 hours","5 hours"], a: 1 },
-  { id: 488, q: "For HIGH RISK sterile compounding, how many hours of CE are required annually?", o: ["2 hours","4 hours","6 hours","8 hours"], a: 1 },
-  { id: 489, q: "How often must a pharmacist or technician pass a \"media fill test\" if they are performing HIGH RISK sterile compounding?", o: ["Annually","Every 6 months","Every 3 months","Monthly"], a: 1 },
-  { id: 490, q: "What is the maximum storage time for a LOW RISK sterile drug at Room Temperature (RT)?", o: ["24 hours","30 hours","48 hours","72 hours"], a: 2 },
-  { id: 491, q: "What is the maximum storage time for a MEDIUM RISK sterile drug if kept Cold (Refrigerated)?", o: ["3 days","7 days","14 days","21 days"], a: 1 },
-  { id: 492, q: "In a facility with 100 beds or less, how often must a pharmacist be on-site at a minimum?", o: ["Every 24 hours","Every 72 hours","Every 7 days","Every 14 days"], a: 2 },
-  { id: 493, q: "In a Class C pharmacy with >100 beds, what is the frequency for a drug regimen review if the average daily census is 10 or less?", o: ["Within 96 hours","Within 7 days","Within 14 days","Within 31 days"], a: 1 },
-  { id: 494, q: "In a Class C-ASC (Ambulatory Surgical Center), how often must the pharmacist audit distribution records against medical orders?", o: ["Every 7 days","Every 14 days","Every 30 days","Quarterly"], a: 2 },
-  { id: 495, q: "Prepackaged supplies in a Class C-ASC may not exceed a:", o: ["24-hour supply","48-hour supply","72-hour supply","7-day supply"], a: 2 },
-  { id: 496, q: "A Nuclear Pharmacist (Class B) must complete how many didactic (classroom) hours to be certified?", o: ["100 hours","200 hours","500 hours","700 hours"], a: 1 },
-  { id: 497, q: "How many hours of supervised practical experience are required for a Nuclear Pharmacist?", o: ["200 hours","300 hours","500 hours","1,000 hours"], a: 2 },
-  { id: 498, q: "Which of the following is required on the IMMEDIATE INNER container (e.g., the syringe) of a radiopharmaceutical?", o: ["Pharmacy name and address","Standard Radiation Symbol","Patient's Name","Calibration time"], a: 1 },
-  { id: 499, q: "True or False: Radiopharmaceutical prescriptions are permitted to have refills if authorized by the prescriber.", o: ["True","False"], a: 1 },
-  { id: 500, q: "In a Class D pharmacy (Clinic), which of the following is typically PROHIBITED from the formulary?", o: ["Antibiotics","Vaccines","Controlled Substances","Anti-inflammatory drugs"], a: 2 },
-  { id: 501, q: "If a Class D pharmacy uses an \"Expanded Formulary,\" how often must a retrospective drug regimen review be conducted?", o: ["Monthly","Quarterly","Bi-annually","Annually"], a: 1 },
-  { id: 502, q: "What is the maximum Pharmacist-to-Technician ratio in a Class G pharmacy (Processing center)?", o: ["1:3","1:4","1:6","1:8"], a: 3 },
-  { id: 503, q: "A Class H pharmacy is a \"Limited Prescription Delivery Pharmacy.\" Who is allowed to own a Class H pharmacy?", o: ["A Pharmacy Corporation","A Hospital District","A County Government","An Independent Pharmacist"], a: 1 },
-  { id: 504, q: "Which of the following items does NOT require tamper-evident packaging under federal law?", o: ["Mouthwash","Insulin","Tylenol capsules","Eye drops"], a: 1 },
-  { id: 505, q: "How long must a log of employee initials or identification codes be maintained by a pharmacy?", o: ["2 years","5 years","7 years","10 years"], a: 2 },
-  { id: 506, q: "Who regulates the advertising of PRESCRIPTION drugs?", o: ["FTC (Federal Trade Commission)","FDA","DEA","TSBP"], a: 1 },
-  { id: 507, q: "A Laminar Flow Hood must be certified at least every:", o: ["3 months","6 months","12 months","24 months"], a: 1 },
-  { id: 508, q: "The \"Orange Book\" is used by pharmacists to determine:", o: ["Biological interchangeability","Therapeutic equivalence of drug products","Pricing and Reimbursement","Veterinary drug safety"], a: 1 },
-  { id: 509, q: "What is the DEA Form used for the initial registration of a pharmacy?", o: ["Form 106","Form 222","Form 224","Form 41"], a: 2 },
-  { id: 510, q: "If a pharmacy experiences a \"breach\" of PHI affecting more than 500 individuals, they must notify the affected individuals within:", o: ["30 days","45 days","60 days","90 days"], a: 2 },
-  { id: 511, q: "How many members are on the Texas State Board of Pharmacy?", o: ["9","11","13","15"], a: 1 },
-  { id: 512, q: "How long is the term for a member appointed to the TSBP?", o: ["2 years","4 years","6 years","10 years"], a: 2 },
-  { id: 513, q: "True or False: A pharmacist performing Drug Therapy Management (DTM) is authorized to receive a verbal prescription over the phone.", o: ["True","False"], a: 1 },
-  { id: 514, q: "If a pharmacist's license has been expired for more than 1 year, what must they do to practice again?", o: ["Pay a triple renewal fee","Complete double the CE hours","Retake the NAPLEX and MPJE","They are permanently barred"], a: 2 },
-  { id: 515, q: "What is the primary purpose of the Texas Pharmacy Act?", o: ["To increase the profitability of pharmacies in Texas","To protect the public health, safety, and welfare of Texans","To limit the number of pharmacists entering the state","To regulate the wholesale price of prescription drugs"], a: 1 },
-  { id: 516, q: "Of the 11 members of the Texas State Board of Pharmacy (TSBP), how many must be actively practicing pharmacists?", o: ["Five","Seven","Nine","Eleven"], a: 1 },
-  { id: 517, q: "To qualify as a pharmacist member of the TSBP, a person must have been licensed in Texas for at least how many years?", o: ["2 years","5 years","10 years","15 years"], a: 1 },
-  { id: 518, q: "Who has the authority to appoint members to the Texas State Board of Pharmacy?", o: ["The President of the TSBP","The Texas Pharmacists Association (TPA)","The Governor of Texas","The Attorney General"], a: 2 },
-  { id: 519, q: "How many times total is an applicant allowed to take the NAPLEX or MPJE licensing exams?", o: ["3 times","5 times","10 times","Unlimited, as long as they pay the fee"], a: 1 },
-  { id: 520, q: "To be eligible for licensure by examination in Texas, a student must complete how many internship hours?", o: ["1,000 hours","1,500 hours","1,740 hours","2,000 hours"], a: 2 },
-  { id: 521, q: "Initially, after passing the exams, a pharmacist is issued a temporary license that lasts for how many days?", o: ["10 days","30 days","60 days","90 days"], a: 1 },
-  { id: 522, q: "A pharmacist's license in Texas expires every two years on which date?", o: ["December 31st","The date the license was originally issued","The last day of the pharmacist's birth month","January 1st"], a: 2 },
-  { id: 523, q: "Licensure by Reciprocity requires an applicant to pass which exam?", o: ["NAPLEX only","Texas MPJE only","Both NAPLEX and Texas MPJE","No exam is required if they are licensed in another state"], a: 1 },
-  { id: 524, q: "To renew a license, a pharmacist must complete 30 hours of Continuing Education (CE). How many of those hours must be related to Texas Pharmacy Laws or Rules?", o: ["1 hour","2 hours","3 hours","5 hours"], a: 0 },
-  { id: 525, q: "Which of the following is a mandatory training course required for EACH license renewal in Texas?", o: ["Basic Life Support (BLS)","Human Trafficking Prevention","Advanced Cardiac Life Support (ACLS)","HIPAA Privacy Training"], a: 1 },
-  { id: 526, q: "Regarding CE requirements for Pain Management, how many total hours are required per renewal period?", o: ["1 hour","2 hours","4 hours","6 hours"], a: 1 },
-  { id: 527, q: "True or False: A pharmacist whose license is on \"Inactive Status\" is permitted to practice pharmacy as long as they are supervised by an \"Active\" pharmacist.", o: ["True","False"], a: 1 },
-  { id: 528, q: "Which of the following is considered \"Unprofessional Conduct\" that can lead to disciplinary action?", o: ["Refusing a TSBP inspection","Subverting or attempting to subvert the NAPLEX/MPJE","Sharing compensation with a practitioner for pharmacy services","All of the above"], a: 3 },
-  { id: 529, q: "Who is allowed to appoint a three-member disciplinary panel to determine if a license should be temporarily suspended or restricted?", o: ["The Governor","The President of the Board","The Attorney General","The Executive Director of the TSBP"], a: 1 },
-  { id: 530, q: "A pharmacist may dispense an emergency refill for a non-CII drug if the quantity does not exceed a:", o: ["24-hour supply","72-hour supply","7-day supply","30-day supply"], a: 1 },
-  { id: 531, q: "If the Governor declares a disaster and the TSBP notifies the pharmacist, the pharmacist may dispense an emergency refill of up to a:", o: ["72-hour supply","14-day supply","30-day supply","90-day supply"], a: 2 },
-  { id: 532, q: "A pharmacist may release a confidential record to which of the following without violating privacy rules?", o: ["The patient's agent","A law enforcement agency engaged in an investigation","An insurance carrier authorized by the patient","All of the above"], a: 3 },
-  { id: 533, q: "True or False: In a rural area with no pharmacy, a physician may be permitted to dispense dangerous drugs and be reimbursed for the cost.", o: ["True","False"], a: 0 },
-  { id: 534, q: "Under \"Permissive Substitution,\" a pharmacist may dispense a generic equivalent if which of the following is true?", o: ["The product costs less than the brand name","The patient does not refuse the substitution","The provider has not prohibited substitution","All of the above"], a: 3 },
-  { id: 535, q: "In Texas, a \"Confidential Record\" is considered privileged. A pharmacist may release this information to another pharmacist ONLY if:", o: ["The other pharmacist is a personal friend","The release is necessary to protect the patient's health and well-being","The other pharmacist is looking for a job","No authorization is ever needed between pharmacists"], a: 1 },
-  { id: 536, q: "Which of the following is considered \"Unprofessional Conduct\" regarding the licensing exams?", o: ["Failing the NAPLEX three times","Subverting or attempting to subvert the integrity of the NAPLEX or MPJE","Taking a practice exam online","Retaking the exam after 6 months"], a: 1 },
-  { id: 537, q: "A pharmacist may be disciplined if they use alcohol or drugs in an \"intemperate manner.\" What is the Board's primary concern with this behavior?", o: ["It lowers the pharmacy's reputation","It could endanger a patient's life","It is a violation of federal tax law","It increases insurance premiums"], a: 1 },
-  { id: 538, q: "Regarding the display of licenses, which of the following is TRUE in a Texas pharmacy?", o: ["Every technician must display their original license in public view","Only the PIC (Pharmacist-in-Charge) must display their license","The pharmacy must display its pharmacy license in public view","No licenses need to be displayed as long as they are in a folder"], a: 2 },
-  { id: 539, q: "A three-member disciplinary panel may temporarily suspend a license WITHOUT notice or a hearing IF:", o: ["The pharmacist forgot to pay their renewal fee","The pharmacist is moving to another state","A hearing is scheduled to be held within 14 days to determine if the suspension should continue","The Governor personally requests it"], a: 2 },
-  { id: 540, q: "Which of the following is a requirement for a pharmacist to dispense a \"Generically Equivalent\" drug?", o: ["The generic must cost more than the brand name","The patient must specifically request the brand name","The generic must cost LESS than the brand name","The generic must be made in the United States"], a: 2 },
-  { id: 541, q: "If a pharmacist provides an emergency refill due to a \"Natural or Manmade Disaster,\" they should provide a:", o: ["24-hour supply","72-hour supply","14-day supply","30-day supply"], a: 1 },
-  { id: 542, q: "Which of the following acts is defined as \"Unprofessional Conduct\"?", o: ["Refusing to allow a TSBP inspector to enter the pharmacy","Dispensing a prescription that the pharmacist knows is fraudulent","Intimidating or threatening a board member","All of the above"], a: 3 },
-  { id: 543, q: "A physician is generally prohibited from dispensing drugs in Texas. However, they may provide what amount of a \"Dangerous Drug\" to meet a patient's immediate therapeutic need?", o: ["24-hour supply","48-hour supply","72-hour supply","7-day supply"], a: 2 },
-  { id: 544, q: "A pharmacist may be disciplined for \"Gross Immorality.\" This is defined by the board as:", o: ["Not attending CE courses","Conduct which is willful, flagrant, and shameless","Forgetting to initial a prescription","Having a messy pharmacy counter"], a: 1 },
-  { id: 545, q: "True or False: A pharmacy may be disciplined if it waives or discounts a patient's copayment for a compounded drug without documented financial hardship.", o: ["True","False"], a: 0 },
-  { id: 546, q: "When a pharmacist exercises professional judgment to dispense an emergency refill, they must:", o: ["Inform the patient that the refill is not authorized and requires a future authorization","Notify the prescriber at the earliest reasonable time","Maintain a record of the refill","All of the above"], a: 3 },
-  { id: 547, q: "Which board order is considered final and CANNOT be appealed?", o: ["AB (Agreed Board)","ABO (Agreed Board Order)","Both A and B","Neither A nor B"], a: 1 },
-  { id: 548, q: "How long must a licensee wait before seeking to remove a restriction on a license or have it reinstated after it was revoked?", o: ["6 months","12 months","2 years","5 years"], a: 1 },
-  { id: 549, q: "In a Class A pharmacy, which of the following records must be maintained for at least 2 years?", o: ["Annual Inventories","DEA 222 Forms","Theft and Loss Reports","All of the above"], a: 3 },
-  { id: 550, q: "If a pharmacy is compounding for a \"Practitioner's Office,\" the label must state:", o: ["\"For Patient Use Only\"","\"For institutional or office use only - Not for resale\"","\"Sample - Not for Sale\"","The patient's name"], a: 1 },
-  { id: 551, q: "If a pharmacy is compounding for a \"Veterinarian's Office,\" the label must include which specific phrase?", o: ["\"For Animal Use Only\"","\"Not for Human Consumption\"","\"Compounded Preparation\"","\"Office Use Only\""], a: 2 },
-  { id: 552, q: "A pharmacy technician requires how many hours of initial training for sterile compounding?", o: ["10 hours","20 hours","40 hours","80 hours"], a: 2 },
-  { id: 553, q: "How often must a \"Media Fill Test\" be conducted for someone performing LOW or MEDIUM risk sterile compounding?", o: ["Every 3 months","Every 6 months","Annually","Bi-annually"], a: 2 },
-  { id: 554, q: "A High-Risk sterile preparation may be stored at Room Temperature (RT) for no more than:", o: ["12 hours","24 hours","30 hours","48 hours"], a: 1 },
-  { id: 555, q: "In a Class C pharmacy with 100 beds or less, which function may be performed under electronic supervision?", o: ["Preparing, packaging, and labeling prescription drug orders","Entering medication orders into the computer system","Compounding low-risk sterile preparations","All of the above"], a: 3 },
-  { id: 556, q: "\"Tech-check-tech\" in a facility with an ongoing clinical pharmacy program includes which of the following?", o: ["Compounding high-risk sterile products","Restocking automated medication supply systems","Performing final checks on new outpatient prescriptions","All of the above"], a: 1 },
-  { id: 557, q: "In a facility with a part-time/consultant RPh, if the average daily census is 10 or less, when must the RPh perform a drug regimen review?", o: ["Within 72 hours","Within 96 hours","Within 7 days","Within 10 days"], a: 2 },
-  { id: 558, q: "When a drug is withdrawn from the pharmacy while the RPh is off-duty, the RPh must review the withdrawal no later than:", o: ["24 hours","72 hours","7 days","30 days"], a: 2 },
-  { id: 559, q: "How often must floor stock records be reviewed in a Class C pharmacy?", o: ["Every 7 days","Every 14 days","Every 30 days","Every 60 days"], a: 2 },
-  { id: 560, q: "In the ER, when the RPh is not on duty, a prepackaged label completed by a nurse must include all the following EXCEPT:", o: ["Name of the practitioner and name of the patient","Unique ID number (Rx number) and quantity supplied","Pharmacy's DEA number","Name, address, and phone number of the facility"], a: 2 },
-  { id: 561, q: "How often must a pharmacist verify the contents of ER records?", o: ["Every 24 hours","Every 72 hours","Once every 7 days","Once every 30 days"], a: 2 },
-  { id: 562, q: "True or False: In a Class C-ASC, a pharmacist must conduct a random audit comparing distribution records with medication orders every 30 days.", o: ["True","False"], a: 0 },
-  { id: 563, q: "True or False: Radiopharmaceutical prescriptions are permitted to have refills.", o: ["True","False"], a: 1 },
-  { id: 564, q: "The inner container (syringe) of a radiopharmaceutical must be labeled with which of the following?", o: ["Patient's date of birth","Standard radiation symbol and the phrase \"Caution: Radioactive Material\"","Prescribing physician's DEA number","Pharmacy's phone number"], a: 1 },
-  { id: 565, q: "The outer container of a radiopharmaceutical requires more detail than the inner. Which of these is required on the OUTER label?", o: ["Amount in millicuries/microcuries","Requested calibration time","Expiration date and time","All of the above"], a: 3 },
-  { id: 566, q: "Which of the following is PROHIBITED from the formulary of a Class D pharmacy?", o: ["Nalbuphine (Nubain)","Erectile Dysfunction (ED) drugs","Controlled Substances","All of the above"], a: 3 },
-  { id: 567, q: "How often must a Pharmacist/PIC visit a Class D pharmacy?", o: ["Weekly","Bi-weekly","At least monthly","Quarterly"], a: 2 },
-  { id: 568, q: "True or False: There is no limit to the number of Class D pharmacies a single PIC can supervise.", o: ["True","False"], a: 0 },
-  { id: 569, q: "To qualify for the \"Drug Sample Exemption,\" a pharmacy must be owned by:", o: ["A charitable organization or government entity","A major retail chain","A private physician group","A pharmaceutical manufacturer"], a: 0 },
-  { id: 570, q: "How often must a retrospective drug regimen review be conducted in a Class F (Free-standing ER) pharmacy?", o: ["Every 7 days","Every 14 days","At least every 31 days","Bi-annually"], a: 2 },
-  { id: 571, q: "A Class G pharmacy is a \"Central Prescription Drug Order Processing\" center. What is it specifically NOT allowed to do?", o: ["Process insurance claims","Store or dispense drugs","Verify technician work","Transfer prescriptions"], a: 1 },
-  { id: 572, q: "What is the Pharmacist-to-Technician ratio in a Class G pharmacy?", o: ["1:3","1:4","1:6","1:8"], a: 3 },
-  { id: 573, q: "A Class H pharmacy (Limited Prescription Delivery) provides services to which other pharmacy class?", o: ["Class B","Class C","Class A","Class E"], a: 2 },
-  { id: 574, q: "True or False: A Class H pharmacy is allowed to deliver filled prescriptions for controlled substances.", o: ["True","False"], a: 1 },
-  { id: 575, q: "Which of the following regulates OTC advertising?", o: ["FDA","DEA","FTC (Federal Trade Commission)","TSBP"], a: 2 },
-  { id: 576, q: "A Biological Safety Cabinet (BSC) used for hazardous drugs must be:", o: ["Class II or III","Vertical cabinet","Located in an ISO 7 area","All of the above"], a: 3 },
-  { id: 577, q: "The \"Purple Book\" is used to identify:", o: ["Therapeutic equivalence for generic drugs","Biosimilar and interchangeable biological products","Veterinary drugs","Controlled substance schedules"], a: 1 },
-  { id: 578, q: "When a pharmacy is bought out, how many days does the new owner have to obtain their new DEA number?", o: ["14 days","30 days","45 days","60 days"], a: 2 },
-  { id: 579, q: "If a pharmacy wants to move records to a central location, they notify the DEA. If the DEA doesn't respond, when can the pharmacy begin maintaining central records?", o: ["7 days after notification","14 days after notification","30 days after notification","Immediately"], a: 1 },
-  { id: 580, q: "If a prescriber dies, a pharmacist can provide a one-time supply of the medication for how many days while the patient finds a new doctor?", o: ["3 days","7 days","14 days","30 days"], a: 3 },
-  { id: 581, q: "A pharmacist's license renewal requires 30 contact hours. What specific breakdown is required?", o: ["1 hour of law and 1 hour of opioid abuse","3 hours of law and 5 hours of opioid abuse","5 hours of law and 1 hour of patient safety","All 30 hours must be law-related"], a: 0 },
-  { id: 582, q: "If a pharmacist's license has been expired for 100 days (more than 90 but less than 180), what is the renewal fee?", o: ["1.5X the renewal fee","2X the renewal fee","3X the renewal fee","They must retake the exam"], a: 1 },
-  { id: 583, q: "Computer systems in a pharmacy must be backed up at least:", o: ["Daily","Weekly","Monthly","Quarterly"], a: 2 },
-  { id: 584, q: "A transfer of a prescription between pharmacies must be completed within how many hours of the request?", o: ["1 hour","4 hours","24 hours","48 hours"], a: 1 },
-  { id: 585, q: "An Optometric Glaucoma Specialist can write a prescription for an oral NSAID for a maximum of:", o: ["3 days","7 days","10 days","30 days"], a: 1 },
-  { id: 586, q: "Which of the following practitioners can NOT provide a verbal or faxed prescription in Texas?", o: ["A Canadian or Mexican MD","A Nurse Practitioner","A Physician Assistant","An Out-of-State MD"], a: 0 },
-  { id: 587, q: "True or False: A pharmacist performing Drug Therapy Management (DTM) is authorized to transfer a prescription from an out-of-state pharmacy to a Texas pharmacy.", o: ["True","False"], a: 1 },
-  { id: 588, q: "The TSBP is composed of 11 members. What is the specific breakdown of those members?", o: ["11 Pharmacists","9 Pharmacists, 1 Tech, 1 Public member","7 Pharmacists, 1 Tech, 3 Public members","5 Pharmacists, 3 Techs, 3 Public members"], a: 2 },
-  { id: 589, q: "What is the primary law governing the practice of pharmacy in the state of Texas?", o: ["The Texas Health and Safety Code","The Texas Pharmacy Act","The federal Food, Drug, and Cosmetic Act","The Texas Controlled Substances Act"], a: 1 },
-  { id: 590, q: "How many total members serve on the Texas State Board of Pharmacy (TSBP)?", o: ["9 members","11 members","13 members","15 members"], a: 1 },
-  { id: 591, q: "What is the specific composition of the 11-member Texas State Board of Pharmacy?", o: ["11 Pharmacists","8 Pharmacists, 1 Technician, 2 Public members","7 Pharmacists, 1 Technician, 3 Public members","6 Pharmacists, 2 Technicians, 3 Public members"], a: 2 },
-  { id: 592, q: "To qualify as a pharmacist member of the TSBP, an individual must represent which pharmacy classes?", o: ["Class A or Class B","Class A or Class C","Class C or Class E","Any pharmacy class"], a: 1 },
-  { id: 593, q: "What is the minimum number of years a pharmacist must be licensed in Texas to qualify for a seat on the Board?", o: ["2 years","5 years","10 years","15 years"], a: 1 },
-  { id: 594, q: "How are TSBP board members selected for service?", o: ["Elected by licensed Texas pharmacists","Appointed by the TSBP Executive Director","Appointed by the Governor with advice/consent of the Senate","Appointed by the Attorney General"], a: 2 },
-  { id: 595, q: "What is the term length for a TSBP board member, and what is the limit on consecutive terms?", o: ["4-year term; 3 consecutive terms","6-year term; 2 consecutive terms","6-year term; no limit","10-year term; 1 term only"], a: 1 },
-  { id: 596, q: "How often is the Texas State Board of Pharmacy required to hold meetings?", o: ["Monthly","Bi-monthly","Quarterly","Annually"], a: 2 },
-  { id: 597, q: "True or False: The TSBP has the authority to specify and enforce requirements for practical training, including internships.", o: ["True","False"], a: 0 },
-  { id: 598, q: "When must a person register with the board as a pharmacist-intern?", o: ["Upon graduation from a College of Pharmacy","Before beginning a board-approved internship in Texas","After passing the NAPLEX","Registration is not required for interns"], a: 1 },
-  { id: 599, q: "What is the maximum number of times an applicant can take a pharmacy licensing exam (NAPLEX/MPJE)?", o: ["3 times total","5 times total","10 times total","Unlimited"], a: 1 },
-  { id: 600, q: "What are the minimum requirements for licensure by examination for a pharmacist in Texas?", o: ["Age 18+, 1500 internship hours, and pass NAPLEX/MPJE","Age 18+, 1740+ internship hours, professional degree, and pass NAPLEX/MPJE","Age 21+, 1000 internship hours, and pass NAPLEX/MPJE","Graduation from a Texas-only pharmacy school and 1740 hours"], a: 1 },
-  { id: 601, q: "Initially, a temporary pharmacist license is issued for how many days?", o: ["10 days","30 days","60 days","90 days"], a: 1 },
-  { id: 602, q: "On what day does a Texas pharmacist's license expire?", o: ["December 31st of every even year","The anniversary of their graduation","The last day of their birth month","The first day of the year"], a: 2 },
-  { id: 603, q: "To reciprocate a license to Texas, what is the minimum score required on the Texas MPJE?", o: ["70","75","80","85"], a: 1 },
-  { id: 604, q: "How many total hours of Continuing Education (CE) are required for each two-year pharmacist license renewal?", o: ["15 hours","20 hours","30 hours","40 hours"], a: 2 },
-  { id: 605, q: "How long must a pharmacist maintain records of their CE completion?", o: ["1 year","2 years","3 years","5 years"], a: 2 },
-  { id: 606, q: "Which of the following is a mandatory CE subject/training for EVERY renewal?", o: ["Human Trafficking Prevention (HHSC-approved)","HIPAA Certification","Advanced Life Support","Vaccine administration"], a: 0 },
-  { id: 607, q: "What are the specific hour requirements for Pain Management and Controlled Substances CE in Texas?", o: ["1 hour Pain Management; 1 hour Controlled Substances","2 hours Pain Management (1/year); 2 hours Prescribing/Monitoring Controlled Substances","5 hours for both combined","There is no specific hour requirement, only the subject matter"], a: 1 },
-  { id: 608, q: "True or False: A business may use the word \"apothecary\" in its name even if it is not a licensed pharmacy.", o: ["True","False"], a: 1 },
-  { id: 609, q: "A pharmacist on \"inactive status\" is required to do which of the following?", o: ["Pay renewal fees and complete CE","Pay renewal fees but is exempt from CE","Practice at least 10 hours a month","There is no such thing as inactive status"], a: 1 },
-  { id: 610, q: "Which of the following is a ground for disciplinary action against a pharmacist?", o: ["Conviction of a felony","Refusing entry for an authorized inspection","Using drugs in an \"intemperate manner\" that could endanger a patient","All of the above"], a: 3 },
-  { id: 611, q: "True or False: Pharmacists and technicians are required to display their individual licenses or renewal certificates in public view at the pharmacy.", o: ["True","False"], a: 1 },
-  { id: 612, q: "A pharmacy license may be disciplined if the pharmacy waives a patient's copayment for a compounded drug EXCEPT in which case?", o: ["The patient is a friend of the owner","The patient has a documented financial hardship","The drug is near its expiration date","Copayments can always be waived in Texas"], a: 1 },
-  { id: 613, q: "A three-member disciplinary panel can temporarily suspend a license without a hearing if a hearing is scheduled within how many days?", o: ["5 days","10 days","14 days","30 days"], a: 2 },
-  { id: 614, q: "A pharmacist may perform \"permissive substitution\" (generic substitution) IF:", o: ["The generic costs less than the brand","The patient does not refuse","The prescriber has not prohibited it","All of the above"], a: 3 },
-  { id: 615, q: "In a non-emergency situation, what is the maximum supply a pharmacist can dispense for an emergency refill without prescriber authorization?", o: ["24-hour supply","48-hour supply","72-hour supply","7-day supply"], a: 2 },
-  { id: 616, q: "If the Governor declares a disaster and the TSBP notifies the pharmacist, what is the maximum emergency refill supply allowed?", o: ["72-hour supply","14-day supply","30-day supply","90-day supply"], a: 2 },
-  { id: 617, q: "True or False: In rural areas with no pharmacy, a physician may dispense dangerous drugs and be reimbursed for the cost.", o: ["True","False"], a: 0 },
-  { id: 618, q: "A pharmacist may release a confidential record to which of the following without patient authorization?", o: ["A law enforcement agency engaged in a suspected violation investigation","Another pharmacist, if necessary to protect the patient's health","A state agency licensing a practitioner during official duties","All of the above"], a: 3 },
-  { id: 619, q: "Which of the following is defined as \"Gross Immorality\"?", o: ["Forgetting to sign a logbook","Engaging in sexually deviant behavior or requiring sex offender registration","Refusing an inspection","Sharing a commission with a doctor"], a: 1 },
-  { id: 620, q: "True or False: A pharmacy fails to maintain effective controls against diversion if there is inadequate security to prevent unauthorized access to drugs.", o: ["True","False"], a: 0 },
-  { id: 621, q: "What is the definition of \"Revoke\" regarding a license?", o: ["A temporary pause of the license","A formal public censure","The license is void and cannot be reissued (though reinstatement may be sought after 12 months)","The license is retired voluntarily"], a: 2 },
-  { id: 622, q: "Remedial plans are removed from a licensee's record after how many years?", o: ["2 years","3 years","5 years","10 years"], a: 2 },
-  { id: 623, q: "After a license is revoked, how long must a person wait before applying for reinstatement?", o: ["6 months","12 months","24 months","5 years"], a: 1 },
-  { id: 624, q: "What is the fee for the reinstatement of a license or registration?", o: ["$50","$100","$250","$500"], a: 1 },
-  { id: 625, q: "How many total internship hours are required for pharmacist licensure in Texas?", o: ["1,000 hours","1,500 hours","1,740 hours","2,000 hours"], a: 2 },
-  { id: 626, q: "True or False: An \"Extended-Intern\" designation may be given to someone who has passed NAPLEX and MPJE but lacks hours.", o: ["True","False"], a: 0 },
-  { id: 627, q: "A pharmacist-intern may perform any duty of a pharmacist ONLY if they are supervised by:", o: ["Any pharmacy employee","A pharmacist preceptor or healthcare professional preceptor","A pharmacy technician with 5 years experience","Interns can always work independently"], a: 1 },
-  { id: 628, q: "When not under a preceptor's supervision, a pharmacist-intern may function as a technician without registering as one, provided they:", o: ["Are registered as an intern and under direct pharmacist supervision","Have completed the pharmacy's on-site technician training","Are not counted in the pharmacist-to-technician ratio","All of the above"], a: 3 },
-  { id: 629, q: "True or False: A pharmacist-intern is allowed to independently supervise pharmacy technicians.", o: ["True","False"], a: 1 },
-  { id: 630, q: "To be a pharmacist preceptor, a pharmacist must have at least how much experience?", o: ["6 months of practice","1 year of experience OR 6 months of residency training","3 years of experience","5 years of experience"], a: 1 },
-  { id: 631, q: "How many hours of preceptor training must be completed every two years?", o: ["1 hour","3 hours","6 hours","10 hours"], a: 1 },
-  { id: 632, q: "If a pharmacist's license has been expired for 60 days, what is the renewal fee?", o: ["1.5x the renewal fee","2x the renewal fee","3x the renewal fee","Re-examination required"], a: 0 },
-  { id: 633, q: "At a minimum, what security features must a pharmacy have?", o: ["Armed guard","Basic alarm system with off-site monitoring, perimeter, and motion sensors","Video cameras in every aisle","Biometric locks on all doors"], a: 1 },
-  { id: 634, q: "According to TSBP rules, how must prescription hard copies be separated?", o: ["All in one file","Two files: Controlled and Non-controlled","Three files: CII; CIII-V; and Non-controlled","By patient last name"], a: 2 },
-  { id: 635, q: "If a TSBP agent requests records, the pharmacy must provide them within:", o: ["24 hours","48 hours","72 hours","7 days"], a: 2 },
-  { id: 636, q: "What are the size and language requirements for the mandatory counseling sign?", o: ["5x7 inches; English only","8.5x11 inches; English and Spanish","11x17 inches; English, Spanish, and Vietnamese","No size requirement; English and Spanish"], a: 1 },
-  { id: 637, q: "When a pharmacy changes its name, the board must be notified within:", o: ["10 days","14 days","30 days","Prior to the change"], a: 0 },
-  { id: 638, q: "When a pharmacy changes its location, the board must be notified within:", o: ["10 days after the move","30 days before the move","14 days before the move","60 days before the move"], a: 1 },
-  { id: 639, q: "How many days prior to a change of location must a pharmacy post a notice for the public?", o: ["7 days","10 days","14 days","30 days"], a: 2 },
-  { id: 640, q: "When a new Pharmacist-in-Charge (PIC) is appointed, they must notify the board within:", o: ["10 days in writing","14 days via phone","30 days in writing","Immediately"], a: 0 },
-  { id: 641, q: "True or False: A pharmacist may accept an unused prescription drug for the purpose of resale if the patient returns it within 24 hours.", o: ["True","False"], a: 1 },
-  { id: 642, q: "Theft or significant loss of controlled substances must be reported to the board:", o: ["Within 24 hours","Within 1 business day","Immediately on discovery","Within 10 days"], a: 2 },
-  { id: 643, q: "If a pharmacy experiences a fire or disaster, the PIC must notify the board within:", o: ["24 hours","72 hours","10 days","30 days"], a: 2 },
-  { id: 644, q: "Regarding controlled substance inventory counts, which is TRUE?", o: ["All schedules must be exact counts","CII must be exact; CIII-V can be an estimate (unless container >1,000 units)","All schedules can be estimates","Only CII and CIII must be exact"], a: 1 },
-  { id: 645, q: "A Class C or C-S pharmacy must maintain a perpetual inventory of which medications?", o: ["All controlled substances","All Dangerous Drugs","Schedule II controlled substances","Only medications in the ER"], a: 2 },
-  { id: 646, q: "Generally, a PIC can only be the PIC of one Class A pharmacy. What is the emergency exception?", o: ["Can be PIC of two pharmacies if they work at least 10 hours/week in each for up to 30 days","Can be PIC of three pharmacies if they work 40 hours total","There is no exception","Can be PIC of any number of pharmacies during a disaster"], a: 0 },
-  { id: 647, q: "Which of the following duties is RESTRICTED to a pharmacist only?", o: ["Receiving verbal RX for controlled substances","Interpreting prescription drug orders","Performing the final check of a dispensed RX","All of the above"], a: 3 },
-  { id: 648, q: "To supervise sterile compounding, a pharmacist must complete a single course of at least:", o: ["10 hours","20 hours","40 hours","80 hours"], a: 1 },
-  { id: 649, q: "Which duty can a Pharmacy Technician perform that a Trainee cannot?", o: ["Entering data into the computer","Receiving an oral prescription for a DANGEROUS drug","Packaging drugs","Trainees and Technicians have the same duties"], a: 1 },
-  { id: 650, q: "A Class A pharmacy may increase its Pharmacist-to-Technician ratio to 1:5 ONLY if which of the following conditions is met?", o: ["The pharmacy dispenses more than 200 prescriptions per day","The pharmacy dispenses no more than 20 different prescription drugs and does not produce sterile preparations","At least one of the technicians is a trainee","The pharmacy is located in a rural county"], a: 1 },
-  { id: 651, q: "If a pharmacist is the only one on duty and takes a short break on the premises, the prescription department may stay open if:", o: ["A pharmacy technician (not a trainee) remains in the department","The pharmacist remains immediately available on the premises","A notice is posted stating the pharmacist is on break","All of the above"], a: 3 },
-  { id: 652, q: "During a pharmacist's temporary absence from the prescription department (but remaining on-site), what may a technician NOT do?", o: ["Begin processing a new prescription brought in","Prepare a refill","Deliver a finished prescription to a patient before the pharmacist verifies it","Enter data into the computer system"], a: 2 },
-  { id: 653, q: "True or False: If the only pharmacist on duty leaves the facility (off-site), the prescription department must be closed and technicians/trainees may not remain in the pharmacy.", o: ["True","False"], a: 0 },
-  { id: 654, q: "An agent of the pharmacist may deliver a previously verified prescription to a patient while the pharmacist is off-site, provided the period does not exceed:", o: ["30 minutes","1 consecutive hour","2 consecutive hours in a 24-hour period","4 consecutive hours"], a: 2 },
-  { id: 655, q: "True or False: In Texas, patient counseling is only required if the patient is taking the medication for the first time in their life.", o: ["True","False"], a: 1 },
-  { id: 656, q: "Which of the following is NOT a required component of a Drug Regimen Review (DRR)?", o: ["Checking for drug-food interactions","Checking for proper utilization (over/under-utilization)","Verifying the patient's insurance co-pay","Checking for duplication of therapy"], a: 2 },
-  { id: 657, q: "A pharmacist may substitute a dosage form (e.g., tablet for a capsule) WITHOUT calling the doctor if:", o: ["The patient consents and the clinical outcome isn't altered","The product is NOT enteric-coated or time-released","It contains the identical amount of active ingredients","All of the above"], a: 3 },
-  { id: 658, q: "True or False: A patient or practitioner may request a \"blanket\" waiver so that all of the patient's prescriptions are dispensed in non-child-resistant containers.", o: ["True","False"], a: 1 },
-  { id: 659, q: "Which of the following must be on a prescription label for a drug dispensed to an animal?", o: ["The animal's date of birth","The species of the animal and the name of the owner","The veterinarian's DEA number","The manufacturer's address"], a: 1 },
-  { id: 660, q: "What is the required \"Beyond Use Date\" (BUD) for a prescription vial in a Class A pharmacy?", o: ["One year from the date of dispensing or the manufacturer's expiration date, whichever is shorter","Two years from the date of dispensing","Always the date on the manufacturer's bottle","6 months from dispensing"], a: 0 },
-  { id: 661, q: "Which of the following substances is regulated by the Poison Prevention Packaging Act (PPPA)?", o: ["Aspirin (oral) and Ibuprofen (oral)","Methyl alcohol (liquid) and Turpentine (liquid)","Iron-containing dietary supplements","All of the above"], a: 3 },
-  { id: 662, q: "A Class A pharmacy must maintain a Patient Medication Record (PMR) that allows for immediate retrieval of information for the previous:", o: ["6 months","12 months","2 years","5 years"], a: 1 },
-  { id: 663, q: "How many times can a Schedule III-V prescription be transferred for the purpose of refills between pharmacies that DO NOT share a real-time database?", o: ["One time only","Two times","Five times","Unlimited"], a: 0 },
-  { id: 664, q: "Who is authorized to transfer a DANGEROUS DRUG (non-controlled) via telephone in Texas?", o: ["Only Pharmacists","Pharmacists and Interns","Pharmacists, Interns, and Technicians","Any pharmacy employee"], a: 2 },
-  { id: 665, q: "A pharmacy must complete a requested transfer of a prescription within how many business hours?", o: ["1 hour","2 hours","4 hours","24 hours"], a: 2 },
-  { id: 666, q: "To renew a Class A-S pharmacy license (sterile compounding), the pharmacy must have been inspected by the board within:", o: ["The last 6 months","The last renewal period","The last 5 years","Inspections are not required for renewal"], a: 1 },
-  { id: 667, q: "In a Class C pharmacy with more than 101 beds, what is the requirement for a Pharmacist-in-Charge (PIC)?", o: ["One part-time PIC","One full-time PIC","A PIC can manage up to 5 such facilities","A PIC can also be the PIC of a Class A pharmacy"], a: 1 },
-  { id: 668, q: "When a Class C pharmacy is closed, withdrawal records must be verified by the RPh within what timeframe if they are a full-time employee?", o: ["24 hours","72 hours (3 days)","7 days","30 days"], a: 1 },
-  { id: 669, q: "What is the maximum supply allowed for an \"Accelerated Refill\" (up to a 90-day supply)?", o: ["30 days","60 days","90 days","120 days"], a: 2 },
-  { id: 670, q: "To be a Nuclear Pharmacist (Class B), an RPh must complete how many hours of a structured educational program?", o: ["200 hours","500 hours","700 hours","1,000 hours"], a: 2 },
-  { id: 671, q: "True or False: In Texas, all Schedule V (CV) medications require a prescription.", o: ["True","False"], a: 0 },
-  { id: 672, q: "A pharmacist may administer an Influenza vaccination to a patient who is at least:", o: ["3 years old","7 years old","14 years old","18 years old"], a: 1 },
-  { id: 673, q: "If a pharmacist administers Epinephrine in an emergency, they must report the event to the patient's primary care physician within:", o: ["24 hours","72 hours","7 days","14 days"], a: 1 },
-  { id: 674, q: "What is the maximum validity period for a CIII-CV prescription in Texas?", o: ["30 days","90 days","6 months","1 year"], a: 2 },
-  { id: 675, q: "Under the \"72-hour rule\" for CII partial fills, if the pharmacy is short on stock, the remainder must be filled within 72 hours. If it isn't, the pharmacist must:", o: ["Fill it anyway","Notify the prescriber","Give the patient a different drug","Ask the patient to wait another 72 hours"], a: 1 },
-  { id: 676, q: "For a terminally ill or LTCF patient, a CII prescription may be partially filled as many times as needed, but all partial fills must be completed within:", o: ["72 hours","30 days","60 days","6 months"], a: 2 },
-  { id: 677, q: "Which DEA form is used for the disposal of controlled substances on the pharmacy premises?", o: ["Form 222","Form 224","Form 106","Form 41"], a: 3 },
-  { id: 678, q: "Beginning March 1, 2020, pharmacists must check the PMP history before dispensing which of the following?", o: ["Opioids and Benzodiazepines","Barbiturates","Carisoprodol (Soma)","All of the above"], a: 3 },
-  { id: 679, q: "How must the quantity be written on a PHYSICAL (written) prescription for a controlled substance in Texas?", o: ["Numerically only","In words only","Numerically, followed by the number written as a word","It doesn't matter as long as it is legible"], a: 2 },
-  { id: 680, q: "For acute pain, a practitioner may not issue a prescription for an OPIOID that exceeds a:", o: ["3-day supply","7-day supply","10-day supply","30-day supply"], a: 2 },
-  { id: 681, q: "Which of the following cannot be changed by a pharmacist on a CII Texas Official Prescription Form?", o: ["Patient Name and Drug Name","Physician Name","Date the prescription was issued","All of the above"], a: 3 },
-  { id: 682, q: "True or False: A pharmacist may dispense a CII prescription from an out-of-state practitioner ONLY if the pharmacy has a plan approved by the TSBP.", o: ["True","False"], a: 0 },
-  { id: 683, q: "A Class D (Clinic) pharmacy formulary is prohibited from containing which of the following?", o: ["Nalbuphine (Nubain)","Erectile Dysfunction drugs","Controlled Substances","All of the above"], a: 3 },
-  { id: 684, q: "True or False: An intern may receive a NEW prescription over the phone and may perform prescription transfers.", o: ["True","False"], a: 0 },
-  { id: 685, q: "A pharmacist receives a written prescription for a non-controlled drug from a physician licensed in Mexico. Which of the following is true?", o: ["The pharmacist may fill it and allow up to 5 refills","The pharmacist may fill it, but it must be the original written prescription and authorize no refills","The pharmacist may only fill it if the patient has a Texas ID","The pharmacist may not fill it unless it is sent electronically"], a: 1 },
-  { id: 686, q: "On a prescription issued by a Physician Assistant (PA), which names must appear on the prescription?", o: ["Only the PA's name","The PA's name and the supervising physician's name","The PA's name and the pharmacist's name","Only the supervising physician's name"], a: 1 },
-  { id: 687, q: "True or False: If an APRN prescribes a controlled substance, the DEA numbers of both the APRN and the supervising physician must be on the prescription.", o: ["True","False"], a: 0 },
-  { id: 688, q: "The formulary for a Class D (Clinic) pharmacy is generally restricted to which categories?", o: ["Anti-infectives and Vitamins","OB/GYN drugs and Topicals","Vaccines and Musculoskeletal drugs","All of the above"], a: 3 },
-  { id: 689, q: "How quickly must a pharmacy quarantine a drug after receiving a notice of recall?", o: ["Immediately (within 1 hour)","Within 24 hours","Within 72 hours","Within 7 days"], a: 1 },
-  { id: 690, q: "Who is legally allowed to request a \"blanket\" waiver for non-child-resistant caps on all future prescriptions?", o: ["The Physician","The Pharmacist","The Patient","The Patient's Insurance"], a: 2 },
-  { id: 691, q: "In Texas, a pharmacy must conduct an inventory of all controlled substances (including out-of-date drugs):", o: ["Every 2 years (Federal minimum)","Annually (Texas requirement)","Monthly","Only when a new PIC starts"], a: 1 },
-  { id: 692, q: "A pharmacy may sell controlled substances to another pharmacy or prescriber without registering as a distributor, provided the total dosage units do not exceed what percentage of the pharmacy's total inventory in a 12-month period?", o: ["2%","5%","10%","20%"], a: 1 },
-  { id: 693, q: "If a pharmacist fills a prescription for a drug but dispenses a different strength than what was prescribed, the drug is considered:", o: ["Adulterated only","Misbranded only","Both Adulterated and Misbranded","Neither, if the pharmacist makes a note"], a: 2 },
-  { id: 694, q: "In a Long-Term Care Facility (LTCF), how often must a consultant pharmacist perform a medication regimen review for each patient?", o: ["Every 7 days","Every 14 days","Every 30 days","Every 90 days"], a: 2 },
-  { id: 695, q: "PRN (as needed) orders for psychotropic drugs in a LTCF must be limited to a duration of:", o: ["7 days","14 days","30 days","90 days"], a: 1 },
-  { id: 696, q: "Which of the following is NOT a Schedule IV (C-IV) substance?", o: ["Carisoprodol (Soma)","Tramadol (Ultram)","Alprazolam (Xanax)","Pregabalin (Lyrica)"], a: 3 },
-  { id: 697, q: "True or False: EPIDIOLEX (Cannabidiol) is currently a Schedule V controlled substance in Texas.", o: ["True","False"], a: 1 },
-  { id: 698, q: "In Texas, all invoices for controlled substances must be initialed by the receiving pharmacist, EXCEPT in which types of pharmacies?", o: ["Class A and Class B","Class C-ASC and Class F","Class C and Class G","There are no exceptions"], a: 1 },
-  { id: 699, q: "Theft or significant loss of a controlled substance must be reported to the DEA within ______ and to the TSBP ______?", o: ["1 business day; Immediately upon discovery","10 days; 30 days","24 hours; 24 hours","1 business day; 1 business day"], a: 0 },
-  { id: 700, q: "Which schedule of controlled substances does NOT legally require the federal transfer warning (\"Caution: Federal law prohibits...\")?", o: ["Schedule II","Schedule III","Schedule IV","Schedule V"], a: 3 },
-  { id: 701, q: "How must a pharmacist conduct the inventory count for a bottle of 500 tablets of Alprazolam (C-IV)?", o: ["Exact count","Estimated count","No count needed if the seal is intact","Only required if the bottle contains more than 1,000 tablets"], a: 1 },
-  { id: 702, q: "A perpetual inventory is required in Texas for all controlled substances in which setting?", o: ["Class A (Community)","Class F (Freestanding Emergency)","All pharmacies","No pharmacies require it"], a: 1 },
-  { id: 703, q: "Which records are PROHIBITED from being stored at a central location?", o: ["Financial records","Shipping records","Executed DEA 222 order forms, Inventories, and Prescriptions","All records must be kept on-site"], a: 2 },
-  { id: 704, q: "Can an authorized agent of a doctor call in an \"Emergency CII\" prescription to a pharmacist?", o: ["Yes","No"], a: 1 },
-  { id: 705, q: "True or False: In Texas, a physician may prescribe Methadone for the purpose of maintaining a patient's addiction from their private office.", o: ["True","False"], a: 1 },
-  { id: 706, q: "To prescribe Suboxone for opioid use disorder (MAT), a practitioner must have an \"X\" code and is known as a:", o: ["Narcotic Specialist","DATA-waived (Qualified) Practitioner","Registered Toxicologist","Clinical Pharmacist"], a: 1 },
-  { id: 707, q: "To purchase Pseudoephedrine in Texas, a customer must be at least:", o: ["16 years old","18 years old","21 years old","No age limit"], a: 0 },
-  { id: 708, q: "For how long must a log of unique initials/IDs for all personnel involved in the dispensing process be maintained?", o: ["2 years","5 years","7 years","Permanent"], a: 2 },
-  { id: 709, q: "A pharmacist who compounds sterile preparations must complete a minimum of how many hours of instruction?", o: ["10 hours","20 hours","40 hours","100 hours"], a: 1 },
-  { id: 710, q: "Under USP <797>, a primary engineering control (PEC) used for sterile compounding must maintain an air quality of at least:", o: ["ISO Class 3","ISO Class 5","ISO Class 7","ISO Class 8"], a: 1 },
-  { id: 711, q: "Where must a Compounding Aseptic Containment Isolator (CACI) for hazardous drugs be placed if used for high-risk products?", o: ["Any unclassified space","ISO Class 7 environment","ISO Class 8 or better environment","A room with positive pressure"], a: 2 },
-  { id: 712, q: "An \"immediate use\" compounded sterile preparation must be administered within how many hours of the start of preparation?", o: ["1 hour","12 hours","24 hours","48 hours"], a: 0 },
-  { id: 713, q: "Which federal law was passed in response to the Sulfanilamide Elixir tragedy and required drugs to be proven safe before marketing?", o: ["Pure Food and Drug Act of 1906","Food, Drug, and Cosmetic Act of 1938","Kefauver-Harris Amendment","Durham-Humphrey Amendment"], a: 1 },
-  { id: 714, q: "The Kefauver-Harris Amendment of 1962 is best known for requiring drugs to be:", o: ["Safe only","Effective only","Both safe and effective","Packaged in child-resistant containers"], a: 2 },
-  { id: 715, q: "A pharmacy receives an \"individualized\" prescription for a compounded medication. This pharmacy is likely operating under which section?", o: ["503A","503B","505(b)(2)","797-Institutional"], a: 0 },
-  { id: 716, q: "Under the DSCSA, \"Transaction Data\" that a pharmacy must maintain for 6 years includes:", o: ["Transaction Information (TI)","Transaction History (TH)","Transaction Statement (TS)","All of the above"], a: 3 },
-  { id: 717, q: "If a pharmacy discovers a product is \"illegitimate\" (counterfeit or contaminated), they must notify the FDA and trading partners within:", o: ["2 hours","24 hours","48 hours","7 days"], a: 1 },
-  { id: 718, q: "True or False: An NDC number is legally required to appear on all OTC drug labels.", o: ["True","False"], a: 1 },
-  { id: 719, q: "An Orange Book rating of \"AB\" indicates that the drug is:", o: ["Not therapeutically equivalent","Bioequivalent only if taken with food","Pharmaceutically and therapeutically equivalent (with established bioequivalence)","A biologic biosimilar"], a: 2 },
-  { id: 720, q: "Which book would you consult to check if a biologic product is \"interchangeable\"?", o: ["Orange Book","Red Book","Purple Book","Yellow Book"], a: 2 },
-  { id: 721, q: "In Texas, the daily limit for the retail sale of pseudoephedrine is:", o: ["2.0 grams","3.6 grams","9.0 grams","No limit"], a: 1 },
-  { id: 722, q: "A pharmacy compounds a liquid containing Codeine. The DEA considers this \"manufacturing\" rather than \"compounding\" if the concentration of the narcotic exceeds:", o: ["5%","10%","20%","50%"], a: 2 },
-  { id: 723, q: "Verify this DEA Number: BK 1234563. Is it valid?", o: ["Yes","No"], a: 0 },
-  { id: 724, q: "Which DEA registration prefix is used for a Mid-level Practitioner (like a PA or NP)?", o: ["A","B","F","M"], a: 3 },
 ];
 
 
@@ -1502,18 +1202,7 @@ function StudyScreen({ masteryScore, correctAnswers, masteredIds, dailyStreak, s
   const masteredCount = masteredIds?.length || 0;
   const readinessPercent = Math.round((masteredCount / QUESTIONS.length) * 100);
   const missedCount = missedIds?.length || 0;
-
-  // Free-topic completion upsell: when a non-Pro user has mastered every question
-  // in Topic 1 (the free topic) we pitch Federal Pharmacy Law specifically. This
-  // is the single highest-intent moment in the free experience and the best spot
-  // to ask for the sale, so it gets its own dedicated card above the readiness.
-  const freeTopic = TOPICS.find((t) => t.isFree);
-  const freeTopicIds = freeTopic ? getTopicQuestionIds(freeTopic) : [];
-  const masteredSetForUpsell = new Set(masteredIds || []);
-  const freeTopicComplete = freeTopicIds.length > 0 && freeTopicIds.every((id) => masteredSetForUpsell.has(id));
-  const remainingLockedQs = QUESTIONS.length - freeTopicIds.length;
-  const showFreeTopicCompleteUpsell = !isPro && freeTopicComplete;
-
+  
   // Check if 24 hours have passed since answering
   const isOnCooldown = todayQuestionTimestamp && (Date.now() - todayQuestionTimestamp) < (24 * 60 * 60 * 1000);
 
@@ -1623,26 +1312,6 @@ function StudyScreen({ masteryScore, correctAnswers, masteredIds, dailyStreak, s
         </TouchableOpacity>
         */}
 
-        {/* Free-topic-complete celebration + upsell. Only shows once they've
-            mastered every question in the free topic and aren't yet Pro. This
-            is the peak moment to ask for the sale. */}
-        {showFreeTopicCompleteUpsell && (
-          <TouchableOpacity style={styles.completeUpsellCard} onPress={onPaywall} activeOpacity={0.85}>
-            <View style={styles.completeUpsellBadge}>
-              <Ionicons name="checkmark" size={18} color={COLORS.white} />
-            </View>
-            <Text style={styles.completeUpsellEyebrow}>TEXAS PHARMACY PRACTICE ACT · COMPLETE</Text>
-            <Text style={styles.completeUpsellTitle}>Nice work — you mastered all {freeTopicIds.length} free questions.</Text>
-            <Text style={styles.completeUpsellBody}>
-              Federal Pharmacy Law is the next most-tested area on the MPJE. Keep your momentum going and unlock the remaining {remainingLockedQs} questions.
-            </Text>
-            <View style={styles.completeUpsellBtn}>
-              <Text style={styles.completeUpsellBtnText}>Unlock all {remainingLockedQs} Qs</Text>
-              <Ionicons name="arrow-forward" size={16} color={COLORS.textDark} />
-            </View>
-          </TouchableOpacity>
-        )}
-
         <View style={[styles.readinessCard, { marginTop: 24 }]}>
           <View style={styles.readinessLeft}>
             <ProgressCircle percent={readinessPercent} size={84} />
@@ -1714,7 +1383,7 @@ function StudyScreen({ masteryScore, correctAnswers, masteredIds, dailyStreak, s
           </TouchableOpacity>
         </View>
 
-        {!isPro && !showFreeTopicCompleteUpsell && (
+        {!isPro && (
           <TouchableOpacity style={styles.promoCard} onPress={onPaywall}>
             <View style={styles.promoContent}>
               <Text style={styles.promoTitle}>Pass your Texas MPJE</Text>
@@ -2664,75 +2333,6 @@ const styles = StyleSheet.create({
   promoEmoji: {
     fontSize: 52,
     marginLeft: 12,
-  },
-
-  // ===== FREE-TOPIC-COMPLETE UPSELL CARD =====
-  // A gold "victory" card that only shows once the user has mastered every
-  // question in the free topic. Its job is to convert the dopamine moment of
-  // completion into a subscription.
-  completeUpsellCard: {
-    backgroundColor: COLORS.accent,
-    borderRadius: 18,
-    padding: 20,
-    marginTop: 20,
-    borderWidth: 2,
-    borderColor: COLORS.accentDark,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.08,
-    shadowRadius: 12,
-    elevation: 3,
-  },
-  completeUpsellBadge: {
-    position: 'absolute',
-    top: -12,
-    right: 16,
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    backgroundColor: COLORS.green,
-    alignItems: 'center',
-    justifyContent: 'center',
-    borderWidth: 3,
-    borderColor: COLORS.white,
-  },
-  completeUpsellEyebrow: {
-    fontSize: 11,
-    fontFamily: 'Inter_700Bold',
-    color: COLORS.textDark,
-    letterSpacing: 0.8,
-    opacity: 0.7,
-    marginBottom: 6,
-  },
-  completeUpsellTitle: {
-    fontSize: 19,
-    fontFamily: 'Inter_700Bold',
-    color: COLORS.textDark,
-    lineHeight: 26,
-    marginBottom: 8,
-  },
-  completeUpsellBody: {
-    fontSize: 14,
-    fontFamily: 'Inter_500Medium',
-    color: COLORS.textDark,
-    lineHeight: 20,
-    opacity: 0.85,
-    marginBottom: 14,
-  },
-  completeUpsellBtn: {
-    backgroundColor: COLORS.white,
-    paddingHorizontal: 18,
-    paddingVertical: 12,
-    borderRadius: 12,
-    alignSelf: 'flex-start',
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  completeUpsellBtnText: {
-    fontSize: 15,
-    fontFamily: 'Inter_700Bold',
-    color: COLORS.textDark,
   },
 
   // ===== STATS HEADER =====
